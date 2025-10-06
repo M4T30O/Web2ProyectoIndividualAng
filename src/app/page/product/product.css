@@ -1,0 +1,41 @@
+.container{
+    display: flex; 
+    justify-content: center;
+    padding: 1rem;
+}
+
+/*Protocolo computadora*/
+@media (min-width: 751px) {
+    .card {
+        width: 10rem;
+    }
+
+    .title {
+        color: darkblue;
+    }
+}
+
+/*Protocolo celular*/
+@media (max-width: 750px) {
+    
+    .card {
+        width: 9rem;
+    }
+
+    .title {
+        color: crimson;
+    }
+}
+
+
+img {
+    height: 8rem;
+
+    /*Propiedad para ajustar tamaño al contenido manteniendo la calidad*/
+    object-fit: cover;
+}
+
+
+.btn-primary:hover {
+    background-color: green;
+}

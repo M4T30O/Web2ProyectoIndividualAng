@@ -19,7 +19,7 @@ export class Product {
         id: "12",
         img: "../../../assets/caballo.jpg",
         alt: "Foto de un caballo",
-        nombreC: "",
+        nombreC: "Equus Caballus",
         titulo: "Caballo",
         descripcion: "Animal domesticado hace mas de 500 años, el cual formo parte de la vida humana por años",
         anualPublicacion: 2025
@@ -32,9 +32,13 @@ export class Product {
         nombreC: "Vulper Vulpes",
         titulo: "Zorro",
         descripcion: "Animal recientemente domesticado, se le relaciona en diferentes culturas y religiones como una señal de buen augurio",
-        anualPublicacion: 2025 
+        anualPublicacion: 2025
       }
     ]
+  }
+  tarjetaSeleccionada: any = null
+  verMas(tarjeta: any) {
+    this.tarjetaSeleccionada = tarjeta
   }
 }
 

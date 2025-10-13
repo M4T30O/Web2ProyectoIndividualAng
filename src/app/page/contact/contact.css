@@ -1,0 +1,31 @@
+form {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#mail {
+    margin-top: 25px;
+}
+
+#boton {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.btn:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.redes {
+    height: 50px;
+    
+}
+
+.social {
+    margin-left: 200px;
+    margin-top: 200px;
+}

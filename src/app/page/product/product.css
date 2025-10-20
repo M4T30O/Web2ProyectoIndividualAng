@@ -12,7 +12,8 @@
     }
 
     .title {
-        color: darkblue;
+        text-align: center;
+        color: black;
     }
 }
 

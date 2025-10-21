@@ -1,0 +1,15 @@
+.card-body {
+    display: flex;
+    background-color: black;
+    height: 210px;
+}
+
+#footer {
+    display: flex;
+    
+}
+
+#lista {
+    display: flex;
+    justify-content: space-between 10px;
+}

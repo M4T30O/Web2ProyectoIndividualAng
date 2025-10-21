@@ -1,8 +1,23 @@
-.btn-primary:hover{
+.btn-primary:hover {
     background-color: green;
 }
 
-#carousel {
-    width: 100%;
-    height: 50px;
+.container {
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
 }
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    background-color: lightgoldenrodyellow;
+}
+
+#carouselExample {
+    display: flex;
+    align-items: center;
+    width: 700px;
+}
+
+

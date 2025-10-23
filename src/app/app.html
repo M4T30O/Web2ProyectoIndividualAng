@@ -1,27 +1,28 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid" style="background-color: darkkhaki;">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="#">Animales.Inc</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="home">Home</a>
+          <a class="nav-link active" aria-current="page" href="home"><u>Inicio</u></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about">About</a>
+          <a class="nav-link" href="about"> <u>Sobre la pagina</u></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact">Contact</a>
+          <a class="nav-link" href="contact"><u>Contactanos</u></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="product">Products</a>
+          <a class="nav-link" href="product"><u>Productos</u></a>
         </li>
       </ul>
       <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
       </form>
     </div>
   </div>
@@ -31,17 +32,24 @@
 <router-outlet></router-outlet>
 
 <div class="card-body">
-    <figure id="footer">
-      <div>
-        <img src="../../public/icono.svg" alt="">
-      </div>
-      <div>
-        <li id="lista">
+  <figure id="footer">
+    <div>
+      <li id="lista1">
+        <ul><a href="http://localhost:4200/product"> Acerca de nuestros productos</a></ul>
+        <ul><a href="http://localhost:4200/product">Animales</a></ul>
+      </li>
+      <li id="lista2">
         <ul> <a href="">Terminos</a></ul>
         <ul><a href="">Privacidad</a></ul>
         <ul><a href="">Seguridad</a></ul>
         <ul><a href="../assets/cookies.jpg">Cookies</a></ul>
       </li>
     </div>
-    </figure>
-  </div>
+    <div>
+      <li id="lista3">
+        <ul><a href="http://localhost:4200/contact">Ayuda</a></ul>
+        <ul><a href="">Reembolso</a></ul>
+      </li>
+    </div>
+  </figure>
+</div>

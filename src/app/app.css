@@ -9,7 +9,18 @@
     
 }
 
-#lista {
+#lista1 {
+    padding-top: 35px;
+}
+
+#lista2 {
     display: flex;
+    padding-top: 10px;
+    padding-left: 450px;
     justify-content: space-between 10px;
+}
+
+#lista3 {
+    padding-left: 355px;
+    padding-top: 30px;
 }
